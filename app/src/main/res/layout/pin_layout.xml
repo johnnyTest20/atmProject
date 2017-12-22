@@ -31,7 +31,17 @@
         android:layout_margin="18dp"
         android:layout_centerHorizontal="true"
         android:inputType="textPassword"
-        android:hint="PIN NUMBER HERE"
-        />
+        android:hint="ENTER YOUR PIN NUMBER HERE"
+        android:textAllCaps="true"
+        android:id="@+id/editText" />
+
+    <Button
+        android:id="@+id/pin_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:text="Submit"
+        android:onClick="pinNumber"/>
 
 </RelativeLayout>
