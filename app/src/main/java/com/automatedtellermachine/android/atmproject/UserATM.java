@@ -1,4 +1,4 @@
-package com.automatedtellermachine.android.atmproject;
+package com.automatedmocktest.atm;
 
 import android.accounts.Account;
 
